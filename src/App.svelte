@@ -1,29 +1,31 @@
 <script lang="ts">
-	export let name: string;
+import Header from "./Header.svelte"
+import Education from "./Education.svelte";
+import WorkExperience from "./WorkExperience.svelte";
+import Projects from "./Projects.svelte";
+import Skills from "./Skills.svelte";
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-</main>
+
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+main {
+	padding: 1em;
+	padding-bottom: 2em;
+	margin: 0 auto;
+	
+}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
+
+<main>
+	<Header/>
+	<hr/>
+	<WorkExperience/>
+	<hr/>
+	<Education/>
+	<hr/>
+	<Projects/>
+	<hr/>
+	<Skills/>
+</main>
