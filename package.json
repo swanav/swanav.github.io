@@ -1,5 +1,6 @@
 {
   "name": "swanav-resume",
+  "description": "Swanav's resume in the web form",
   "version": "1.0.0",
   "private": true,
   "scripts": {
