@@ -1,6 +1,11 @@
 {
   "name": "swanav-resume",
   "description": "Swanav's resume in the web form",
+  "author": {
+    "name": "Swanav Swaroop",
+    "email": "swanav@outlook.com"
+  },
+  "homepage": "https://swanav.github.io",
   "version": "1.0.0",
   "private": true,
   "scripts": {
