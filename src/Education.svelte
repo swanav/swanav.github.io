@@ -10,8 +10,10 @@ import Heading from "./components/Heading.svelte";
         <li class="p-4 hover:bg-gray-50 cursor-pointer">
             <div class="education-row">
                 <div>
-                    <div class="qualification">Bachelor of Engineering (Electrical Engineering)</div>
-                    <div class="school">Thapar Institute of Engineering and Technology</div>
+                    <div class="qualification">Bachelor of Engineering (Electrical Engineering) - AICTE</div>
+                    <div class="school">
+                        <a href="https://thapar.edu/" target="_blank">Thapar Institute of Engineering and Technology</a>
+                    </div>
                     <div class="location">Patiala, Punjab, India</div>
                 </div>
                 <div>
@@ -23,8 +25,10 @@ import Heading from "./components/Heading.svelte";
         <li class="p-4 hover:bg-gray-50 cursor-pointer">
             <div class="education-row">
                 <div>
-                    <div class="qualification">All India Senior School Certificate Examination (PCM with CS)</div>
-                    <div class="school">ASN Sr. Sec. School</div>
+                    <div class="qualification">All India Senior School Certificate Examination (PCM with CS) - CBSE</div>
+                    <div class="school">
+                        <a href="https://www.asnschool.org/asn-sr.sec/" target="_blank">ASN Sr. Sec. School</a>
+                    </div>
                     <div class="location">New Delhi, Delhi, India</div>
                 </div>
                 <div>
@@ -36,8 +40,10 @@ import Heading from "./components/Heading.svelte";
         <li class="p-4 hover:bg-gray-50 cursor-pointer">
             <div class="education-row">
                 <div>
-                    <div class="qualification">All India Secondary School Certificate Examination</div>
-                    <div class="school">St. Columba's School</div>
+                    <div class="qualification">All India Secondary School Certificate Examination - CBSE</div>
+                    <div class="school">
+                        <a href="https://www.stcolumbas.edu.in/" target="_blank">St. Columba's School</a>
+                    </div>
                     <div class="location">New Delhi, Delhi, India</div>
                 </div>
                 <div>
