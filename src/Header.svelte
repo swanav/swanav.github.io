@@ -6,7 +6,7 @@
     <div>
         <div>
             <div class="p-2 hover:bg-gray-50 cursor-pointer icon-detail">
-                <a href="https://maps.apple.com/place?q=Omaxe%20Palm%20Greens&auid=10591049270420272818&address=MU,%20Greater%20Noida,%20201310,%20Uttar%20Pradesh,%20India&ll=28.477327,77.559706" target="_blank" >
+                <a href="https://maps.apple.com/place?q=Omaxe%20Palm%20Greens&auid=10591049270420272818&address=MU,%20Greater%20Noida,%20201310,%20Uttar%20Pradesh,%20India&ll=28.477327,77.559706" target="_blank" rel="noopener">
                     <img id="home-img" src={homeSvg} alt="home"/>
                     <div>
                         PPD-1202, Omaxe Palm Greens <br/>
@@ -24,7 +24,7 @@
                 </a>
             </div>
             <div class="p-2 hover:bg-gray-50 cursor-pointer icon-detail">
-                <a href="https://linkedin.com/in/swanav" target="_blank">
+                <a href="https://linkedin.com/in/swanav" target="_blank" rel="noopener">
                     <img id="linkedin-img" src={linkedSvg} alt="linkedin"/>
                     <div>
                         <span>/in/swanav</span>
@@ -32,7 +32,7 @@
                 </a>
             </div>
             <div class="p-2 hover:bg-gray-50 cursor-pointer icon-detail" >
-                <a href="https://github.com/swanav" target="_blank">
+                <a href="https://github.com/swanav" target="_blank" rel="noopener">
                     <img id="github-img" src={githubSvg} alt="github"/>
                     <div>
                         <span>/swanav</span>

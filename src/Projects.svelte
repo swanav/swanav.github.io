@@ -27,7 +27,7 @@
                 <li class="p-4 hover:bg-gray-50 cursor-pointer">
                     <div class="project-title">
                         {#if project.url}
-                            <a href={project.url} target="_blank" >{project.title}</a>
+                            <a href={project.url} target="_blank" rel="noopener">{project.title}</a>
                         {:else}
                             {project.title}
                         {/if}

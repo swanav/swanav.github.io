@@ -7,7 +7,7 @@
     }`;
 </script>
 
-<a href={link} target="_blank">
+<a href={link} target="_blank" rel="noopener">
     <span class="text-m px-2 font-medium {colorClass} text-white rounded-full py-0.5">
         <slot />
     </span>

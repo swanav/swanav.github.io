@@ -2,7 +2,7 @@
     export let url: string;
 </script>
 
-<a href={url} target="_blank"><slot /></a>
+<a href={url} target="_blank" rel="noopener"><slot /></a>
 
 <style>
     a:hover {
