@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://swanav.github.io/sitemap.xml
