@@ -4,6 +4,16 @@
 
     const qualifications = [
         {
+            name: "Master of Science (Computer Engineering)",
+            accredition_organisation: "",
+            institute: "University of Southern California",
+            institute_url: "https://usc.edu",
+            location: "Los Angeles, CA, United States",
+            period: {
+                from: "Aug 2022",
+                to: "May 2024",
+            },
+        },{
             name: "Bachelor of Engineering (Electrical Engineering)",
             accredition_organisation: "AICTE",
             institute: "Thapar Institute of Engineering and Technology",
