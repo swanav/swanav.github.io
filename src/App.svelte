@@ -21,9 +21,9 @@ main {
 <main>
 	<Header/>
 	<hr/>
-	<WorkExperience/>
-	<hr/>
 	<Education/>
+	<hr/>
+	<WorkExperience/>
 	<hr/>
 	<Projects/>
 	<hr/>
