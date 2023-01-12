@@ -28,7 +28,7 @@
                     <div class="location">Pune, Maharashtra, India</div>
                 </div>
                 <div>
-                    <div class="period">Sep 2020 - Present</div>
+                    <div class="period">Sep 2020 - Jul 2022</div>
                 </div>
             </div>
             <div class="work-experience-details-row" transition:fade>

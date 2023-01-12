@@ -5,13 +5,11 @@
     const qualifications = [
         {
             name: "Master of Science (Computer Engineering)",
-            accredition_organisation: "",
             institute: "University of Southern California",
             institute_url: "https://usc.edu",
             location: "Los Angeles, CA, United States",
             period: {
                 from: "Aug 2022",
-                to: "May 2024",
             },
         },{
             name: "Bachelor of Engineering (Electrical Engineering)",
@@ -61,7 +59,8 @@
                 <div class="education-row">
                     <div>
                         <div class="qualification">
-                            {qualification.name} - {qualification.accredition_organisation}
+                            {qualification.name} {#if qualification.accredition_organisation} 
+<span> - {qualification.accredition_organisation}</span> {/if}
                         </div>
                         <div class="school">
                             <LinkText url={qualification.institute_url}
@@ -75,7 +74,7 @@
                             {qualification.period.from} - {qualification.period
                                 .to ?? "Present"}
                         </div>
-                        <div class="grade">{qualification.grade}</div>
+                        {#if qualification.grade}<div class="grade">{qualification.grade}</div>{/if}
                     </div>
                 </div>
             </li>
