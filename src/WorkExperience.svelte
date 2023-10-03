@@ -14,6 +14,32 @@
         <li class="p-4 hover:bg-gray-50 cursor-pointer">
             <div
                 class="work-experience-row"
+                on:click={() => clickRow("embedded-software-intern-tesla")}
+            >
+                <div>
+                    <div class="qualification">
+                        Embedded Software Intern (Gateway)
+                    </div>
+                    <div class="company">
+                        <LinkText url="https://www.tesla.com/"
+                            >Tesla, Inc.</LinkText
+                        >
+                    </div>
+                    <div class="location">Palo Alto, California, United States of America</div>
+                </div>
+                <div>
+                    <div class="period">May 2023 - Aug 2023</div>
+                </div>
+            </div>
+            <div class="work-experience-details-row" transition:fade>
+                <ul>
+                    
+                </ul>
+            </div>
+        </li>
+        <li class="p-4 hover:bg-gray-50 cursor-pointer">
+            <div
+                class="work-experience-row"
                 on:click={() => clickRow("senior-firmware-engineer-eran")}
             >
                 <div>
