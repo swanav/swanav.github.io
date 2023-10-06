@@ -13,9 +13,13 @@ main {
 	padding: 1em;
 	padding-bottom: 2em;
 	margin: 0 auto;
-	
 }
 
+@media (min-width: 960px) {
+	main {
+		width: 960px;
+	}
+}
 </style>
 
 <main>

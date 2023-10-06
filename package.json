@@ -10,9 +10,9 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "rollup -c -w --host",
     "deploy": "npm run build && gh-pages -d public",
-    "start": "sirv public --no-clear",
+    "start": "sirv public --no-clear --host --dev",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
